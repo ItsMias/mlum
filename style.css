@@ -24,6 +24,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #FFA500;
+  text-decoration: none;
+}
+
 section {
   position: absolute;
   width: 100%;
