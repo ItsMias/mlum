@@ -30,8 +30,9 @@ a:hover {
 }
 
 /* Ensure it also applies to images inside links */
+/* Change the color of SVG images inside links on hover */
 a:hover img {
-  filter: brightness(0.8); /* Example effect */
+  filter: invert(50%) sepia(90%) saturate(500%) hue-rotate(30deg) brightness(100%) contrast(95%);
   transition: 0.3s ease; /* Smooth transition */
 }
 
