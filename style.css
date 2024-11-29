@@ -24,8 +24,15 @@ a {
   text-decoration: none;
 }
 
+/* chatgpt code */
 a:hover {
   color: #ffa500;
+}
+
+/* Ensure it also applies to images inside links */
+a:hover img {
+  filter: brightness(0.8); /* Example effect */
+  transition: 0.3s ease; /* Smooth transition */
 }
 
 section {
